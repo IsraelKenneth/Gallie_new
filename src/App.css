@@ -15,19 +15,23 @@ a {
 }
 
 .gradient__bg {
-    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    /* ff 3.6+ */
+        background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
 
     /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    background: -o-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEF5FF', endColorstr='#FFFFFF', GradientType=0);
 
     /* ie 10+ */
-    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
 
-    /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    /* global 94%+ browsers support */
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
 }
 
 .gradient__text {
