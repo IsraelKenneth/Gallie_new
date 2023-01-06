@@ -1,22 +1,17 @@
 import React from 'react'
-import { Header, HowThisWork, Services, Testimonial, Gallery } from "./containers"
-import { Navbar, Mid, Footer } from './components'
+import { Route, Router, Routes } from "react-router-dom";
+import { Navbar, Footer } from './components'
+import { Home } from "./routes"
 import "./App.css"
 
 
 const App = () => {
   return (
-      <div className='App'>
-          <div className='gradient__bg'>
-        <Navbar />
-        <Header />
-    </div>
-      <Mid />
-      <HowThisWork />
-      <Services />
-      <Testimonial />
-      <Gallery />
-      <Footer />
+
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       </div>
   )
 }
