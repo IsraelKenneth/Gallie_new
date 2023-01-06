@@ -1,2 +1,5 @@
 export { default as Header } from "./header/Header"
 export { default as HowThisWork } from "./HowThisWorks/HowThisWork"
+export { default as Services } from "./Services/Services"
+export { default as Testimonial } from "./Testimonials/Testimonial"
+export { default as Gallery } from "../containers/Gallery/Gallery"

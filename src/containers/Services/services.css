@@ -1,0 +1,121 @@
+.gallie__Services {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 2rem 2rem;
+
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEF5FF', endColorstr='#FFFFFF', GradientType=0);
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 245, 255, 1) 100%);
+
+}
+
+.section__margin1 {
+    margin: 1rem 0;
+}
+
+.gallie__Services-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 1.5rem;
+}
+
+.gallie__Services-heading h2 {
+    font-size: 2rem;
+    line-height: 80px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 50rem;
+}
+
+.gallie__Services-head-text {
+    margin: 0rem 1rem;
+}
+
+.gallie__Services-heading p {
+    font-family: var(--font-family);
+    margin-top: 0.8rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #ce377c;
+    cursor: pointer;
+}
+
+.gallie__Services-Body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem 6rem;
+}
+
+.gallie__Services-Body-Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.3rem;
+}
+
+.gallie__Services-Body-Content__image {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.gallie__Services-Body-Content__image img {
+    width: 400px;
+    height: 100%;
+    border-radius: 2.5rem;
+    border: 0.2.5rem solid #ffffff;
+    box-shadow: 1px 2px 4px 1px rgba(255, 255, 255, 0.29);
+    transition: 0.3s ease-in-out;
+}
+
+.gallie__Services-Body-Content__image img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.gallie__Services-Body-Content__text {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+
+.gallie__Services-Body-Content__text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin-bottom: 0.7rem;
+}
+
+.gallie__Services-Body-Content__text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}

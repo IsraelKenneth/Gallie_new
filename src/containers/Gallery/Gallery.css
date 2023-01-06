@@ -1,0 +1,18 @@
+.gallie__Gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0.5rem auto 6rem auto;
+}
+
+.gallie__Gallery-img img {
+    width: 120px;
+}
+
+.gradient__text1 {
+    color: black;
+
+}
